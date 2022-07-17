@@ -1,0 +1,41 @@
+body {
+  background-color: #eee;
+}
+
+.user-row {
+  padding: 5px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+  display: flex;
+}
+
+.user-id {
+  width: 150px;
+}
+
+.user-name {
+  width: 200px;
+}
+
+.user-age {
+  width: 50px;
+}
+
+.user-row button {
+  margin-left: 10px;
+}
+
+button {
+  min-width: 80px;
+  text-align: center;
+  background-color: lightskyblue;
+  cursor: pointer;
+  color: darkblue;
+  border-radius: 4px;
+}
+
+button:disabled {
+  color: dimgray;
+  background-color: lightgrey;
+  cursor: default;
+}
